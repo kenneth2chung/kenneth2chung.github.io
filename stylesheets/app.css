@@ -1,0 +1,44 @@
+body {
+    font-family: 'Open Sans';
+    margin: 0px;
+}
+.marg {
+    margin: 8px;
+}
+
+h2, a:visited {
+    color: navy;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+li {
+    color: darkslategray;
+}
+
+a {
+    font-weight: bold;
+    color: blue
+}
+a:hover {
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(0, 0, 81);
+    padding: 15px;
+}
+nav a, nav a:visited {
+    color: white;
+    text-decoration: none;
+    padding-right: 30px; /* give elements same size blocks*/
+}
+nav a:hover, nav a:visited:hover {
+    color: lightblue;
+}
